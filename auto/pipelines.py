@@ -150,4 +150,4 @@ class AutoPipeline(object):  #
         except Exception:
             logger.error("SQL: %s", sql)
             raise
-	self.stats.inc_value('{}/saved'.format(self.stats_name))
+        self.stats.inc_value('{}/saved'.format(self.stats_name))
