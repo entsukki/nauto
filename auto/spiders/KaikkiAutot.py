@@ -7,10 +7,10 @@ class AutoHakki(scrapy.Spider):
     name = "Optima"
     allowed_domains = ["nettiauto.com"]
     start_urls = [
-            'https://www.nettiauto.com/kia/optima',
-            'https://www.nettiauto.com/mitsubishi/outlander',
-            'https://www.nettiauto.com/volkswagen/passat',
-            'https://www.nettiauto.com/ford/mondeo',
+      #      'https://www.nettiauto.com/kia/optima',
+      #      'https://www.nettiauto.com/mitsubishi/outlander',
+      #      'https://www.nettiauto.com/volkswagen/passat',
+      #      'https://www.nettiauto.com/ford/mondeo',
             'https://www.nettiauto.com/skoda/octavia'
     ]
 
